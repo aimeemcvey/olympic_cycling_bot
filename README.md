@@ -4,6 +4,10 @@ Programmed Parallax BOEBot with Arduino to compete in an Olympic cycling event a
 ## Overview
 The theme of the team challenge was the BOE-lympics, taking place in BOE-lympic Stadium, a table top decorated with the Olympic rings. The team challenge involved integrating five BOE-bots to parade around the table, judge a series of sporting events (diving, weightlifting, cycling, basketball, and court sports), and to award a gold, silver, or bronze medal for each event based on the object detected within the ring. The bots then generated a collective, integrated result to perform the associated celebration.
 
+<p align="center">
+  <img width="400" height="500" src="/Figures/FrontView.jpg">
+</p>
+
 ## Cycling Bot Description
 My bot judged the cycling event, where medals were awarded based on the slope of the given incline. The bot first circumnavigated its ring and then correctly determined the grade of ramp placed in the middle of the ring, corresponding to the event the competitor was racing. Zero grade equated to the track event for the bronze medal, the moderate grade matched to the road race for the silver medal, and the steep grade corresponded to the mountain for the gold.
 
@@ -20,7 +24,7 @@ My bot judged the cycling event, where medals were awarded based on the slope of
 
 ### Design
 In order to complete the above tasks, the bot was equipped with wheels, an X-bee, QTI sensors, an accelerometer,
-a piezospeaker, an LCD screen, and LEDs. Four QTI sensors, detecting color via IR reflection, were used for
+a piezospeaker, an LCD screen, and LEDs. Wiring and circuit diagrams can be viewed in `/Figures`. Four QTI sensors, detecting color via IR reflection, were used for
 the line following task. Object sensing was accomplished with the Memsic 2125 Dual-Axis Accelerometer, a sensor
 able to measure tilt in the x- and y-directions. A back red LED (on the back breadboard) was installed to display this detection. A score of 2 corresponded to two blinks, a score of 1 corresponded to one blink, and a score of 0 corresponded to no blinks. Finally, once the score was obtained, the value was displayed on an LCD screen by the judge. Celebrations were then performed depending on overall team success; the national anthem was performed with the piezospeaker built in to the LCD screen, the light show was performed with addition green and yellow LEDs, and the dance was performed using the servos.
 
