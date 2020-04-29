@@ -1,5 +1,6 @@
 # Olympic Cycling Bot
-Programmed Parallax BOEBot with Arduino to compete in an Olympic cycling event as part of a team of bots
+Programmed Parallax BOEBot with Arduino to compete in an Olympic cycling event as part of a team of bots.
+A demonstration can be seen [here](https://www.youtube.com/watch?v=sCExtE_GScI&list=PLDTd6Y9DIjMjLb99Wq5d-gKtAXU-chyQ8&index=3).
 
 ## Overview
 The theme of the team challenge was the BOE-lympics, taking place in BOE-lympic Stadium, a table top decorated with the Olympic rings. The team challenge involved integrating five BOE-bots to parade around the table, judge a series of sporting events (diving, weightlifting, cycling, basketball, and court sports), and to award a gold, silver, or bronze medal for each event based on the object detected within the ring. The bots then generated a collective, integrated result to perform the associated celebration.
